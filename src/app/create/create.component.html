@@ -1,0 +1,17 @@
+<form #loginForm="ngForm" (ngSubmit)="createCustomer(loginForm.value)">
+  <div class="main">
+    <div class="input-fields">
+      <input name="id" ngModel placeholder="id" id="id" type="text" class="input-field" />
+    </div>
+    <div class="input-fields">
+      <input name="customerId" ngModel placeholder="Customer id" id="customerId" type="number" class="input-field" />
+    </div>
+    <div class="input-fields">
+      <input name="projectName" ngModel placeholder="Name" id="name" type="text" class="input-field" />
+    </div>
+    <div class="input-fields">
+      <input name="description" ngModel placeholder="Description" id="description" type="text" class="input-field" />
+    </div>
+    <button>Create</button>
+  </div>
+</form>
