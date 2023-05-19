@@ -1,5 +1,8 @@
 # CustomerControlCenterFrontend
 
+Frontend counterpart for sample crud api backed https://github.com/constant-machine/customer-control-center-backend.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
 ## Development server
