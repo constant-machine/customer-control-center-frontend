@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {ProjectService} from "../service/project.service";
-import {Project} from "../model/project";
+import {ProjectRequest} from "../model/project/project-request";
 
 @Component({
   selector: 'app-create',
@@ -12,7 +12,7 @@ export class CreateComponent {
   constructor(private projectService: ProjectService) {
   }
   createCustomer(value: any) {
-    let project: Project = {
+    let project: ProjectRequest = {
       id: value.id,
       customerId: value.customerId,
       projectName: value.projectName,

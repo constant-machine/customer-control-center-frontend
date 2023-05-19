@@ -1,4 +1,4 @@
-export class Project {
+export class ProjectRequest {
   "id": number
   "customerId": number
   "projectName": string
